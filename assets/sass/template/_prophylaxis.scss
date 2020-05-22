@@ -1,0 +1,61 @@
+.prophylaxis {
+    padding: 40px 0;
+
+    &-block {
+        padding: 10px 170px 390px 170px;
+        display: flex;
+        flex-direction: column;
+        background-color: $white;
+        border-radius: 32px;
+    }
+
+    &-title {
+        font-family: 'PF Din Display Pro Bold';
+        font-size: 100px;
+        color: $purple;
+    }
+
+    &-box {
+        display: flex;
+        justify-content: space-between;
+
+        &__img {
+            width: 40%;
+        }
+
+        &__text {
+            width: 60%;
+            padding: 0 15px;
+
+            &-title {
+                font-size: 60px;
+                max-width: 800px;
+            }
+
+            & ol {
+
+                & li {
+                    color: $pink;
+                    font-size: 42px;
+                    margin-bottom: 20px;
+
+                    & span {
+                        color: $black;
+                    }
+                }
+            }
+
+            & p {
+                font-size: 42px;
+            }
+
+            &-first {
+                padding-left: 100px;
+            }
+
+            &-second {
+                padding-right: 100px;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.button {
+    padding-bottom: 125px;
+
+    &-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & button {
+            margin-bottom: 80px;
+            margin-top: -110px;
+            font-family: 'PF Din Display Pro Regular';
+            font-size: 50px;
+            padding: 42px 100px;
+            border-radius: 32px;
+        }
+
+        & span {
+            font-family: 'PF Din Display Pro Bold';
+            font-size: 60px;
+            color: $purple;
+
+            & span {
+                font-family: 'PF Din Display Pro Regular';
+            }
+        }
+    }
+}

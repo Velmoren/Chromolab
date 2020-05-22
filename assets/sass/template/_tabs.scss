@@ -1,0 +1,81 @@
+.tabs {
+  padding: 100px 0;
+
+  &-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-item {
+    width: 550px;
+    height: 580px;
+    color: $purple;
+    border-radius: 60px;
+    box-shadow: 0 27px 32px rgba($purple, 0.5);
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: margin-bottom 0.3s, box-shadow 0.3s;
+
+    & button {
+      cursor: pointer;
+    }
+
+    &:hover {
+      margin-bottom: -10px;
+      box-shadow: 0 5px 10px rgba($purple, 0.5);
+    }
+
+    &__box {
+      height: 470px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__title {
+      text-align: center;
+      font-size: 38px;
+    }
+
+    &__img {
+      max-width: 300px;
+    }
+
+    &:nth-child(2) {
+      & img {
+        max-width: 130px;
+      }
+    }
+
+    &:nth-child(3) {
+      & img {
+        max-width: 100px;
+      }
+    }
+
+    &:nth-child(4) {
+      & img {
+        max-width: 100px;
+      }
+    }
+  }
+
+  .active {
+    margin-bottom: -10px;
+    background-color: $purple;
+    color: $white-text;
+    box-shadow: 0 5px 10px rgba($purple, 0.5);
+
+    & button,
+    a {
+      color: $white-text;
+      border: 1px solid $white;
+      background-color: $purple;
+    }
+  }
+}

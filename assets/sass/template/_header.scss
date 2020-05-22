@@ -1,0 +1,43 @@
+.header {
+  padding: 70px 0;
+
+  &-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-logo {
+    max-width: 500px;
+
+    &-white {
+      display: none;
+    }
+  }
+
+  &-link {
+    font-family: "PF Din Display Pro Bold";
+    font-size: 38px;
+    color: $purple;
+
+    & a {
+      text-decoration: none;
+      color: $purple;
+
+      &:visited {
+        color: $purple;
+      }
+      &:active {
+        color: $purple;
+      }
+    }
+  }
+
+  &-burger {
+    display: none;
+  }
+
+  &-menu {
+    display: none;
+  }
+}

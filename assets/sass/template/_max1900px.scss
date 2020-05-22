@@ -1,0 +1,262 @@
+@media (max-width: 3200px) {
+  .container {
+    max-width: 1400px;
+  }
+
+  .header {
+    padding: 25px 0;
+
+    &-logo {
+      max-width: 250px;
+    }
+
+    &-btn {
+      padding: 16px 50px;
+      font-size: 18px;
+    }
+
+    &-link {
+      font-size: 22px;
+    }
+  }
+
+  .hero {
+    padding: 80px 0;
+    min-height: 600px;
+
+    &-title {
+      font-size: 50px;
+      max-width: 750px;
+      line-height: 76px;
+    }
+
+    &-subtitle {
+      font-size: 34px;
+    }
+
+    &-test {
+      margin-top: 50px;
+      max-width: 790px;
+
+      &__btn {
+        padding: 26px 50px;
+        font-size: 28px;
+      }
+
+      & span {
+        font-size: 34px;
+      }
+    }
+
+    &-items {
+      max-width: 870px;
+    }
+
+    &-item {
+      font-size: 22px;
+      max-width: 400px;
+      padding-top: 10px;
+    }
+  }
+
+  .quests {
+    &-form {
+      width: 830px;
+
+      &-title {
+        font-size: 50px;
+      }
+    }
+
+    &-item {
+      &__title {
+        font-size: 50px;
+        margin-bottom: 60px;
+      }
+
+      &__row {
+        font-size: 30px;
+        width: 560px;
+        &-first {
+          width: 780px;
+        }
+      }
+
+      &__radio {
+        & span {
+          width: 25px;
+          height: 25px;
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+
+  .with-placeholder {
+    height: 75px;
+
+    &__sex {
+      width: 230px;
+
+      &:after {
+        top: 22px;
+        width: 30px;
+        height: 30px;
+      }
+
+      & > select {
+        font-size: 30px;
+      }
+    }
+
+    &__age {
+      width: 230px;
+    }
+
+    & > input:invalid + span {
+      top: 20px;
+      font-size: 30px;
+    }
+
+    & > input:valid + span {
+      top: 0;
+      font-size: 20px;
+    }
+
+    & input {
+      font-size: 40px;
+    }
+  }
+
+  .activate {
+    &-second {
+      &-form {
+        padding-top: 100px;
+        padding-bottom: 30px;
+      }
+    }
+  }
+
+  .tabs {
+    &-item {
+      width: 320px;
+      height: 330px;
+      border-radius: 26px;
+
+      &__box {
+        height: 280px;
+      }
+
+      &__title {
+        font-size: 24px;
+      }
+
+      &__img {
+        max-width: 140px;
+      }
+
+      &__link {
+        border-radius: 12px;
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .prophylaxis {
+    &-block {
+      padding: 10px 130px 300px 130px;
+    }
+
+    &-title {
+      font-size: 58px;
+    }
+
+    &-box {
+      &__text {
+        &-title {
+          font-size: 34px;
+        }
+
+        & ol {
+          & li {
+            font-size: 22px;
+          }
+        }
+
+        & p {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+
+  .button {
+    &-box {
+      & button {
+        margin-top: -90px;
+        margin-bottom: 60px;
+        font-size: 34px;
+        padding: 30px 70px;
+      }
+
+      & span {
+        font-size: 40px;
+      }
+    }
+  }
+
+  .footer {
+    height: 600px;
+
+    &-item {
+      font-size: 20px;
+
+      & span {
+        margin-bottom: 10px;
+      }
+    }
+
+    &-calc {
+      padding: 50px 0;
+
+      &__price {
+        &-title {
+          font-size: 22px;
+        }
+
+        &-num {
+          font-size: 34px;
+        }
+
+        &-final {
+          margin-bottom: -20px;
+          width: 420px;
+
+          & span {
+            font-size: 30px;
+
+            & span {
+              & span {
+                margin-left: 0;
+                font-size: 70px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .btn-white {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    &:hover {
+      margin-top: 55px;
+      margin-bottom: 45px;
+    }
+  }
+}

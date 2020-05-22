@@ -1,0 +1,196 @@
+.hero {
+  padding: 170px 0;
+  background-color: $purple;
+  position: relative;
+
+  &-background-paralax {
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    &-first {
+      background-image: url("../img/microb.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      width: 40%;
+      height: 65%;
+      top: 15%;
+      right: 35%;
+    }
+
+    &-second {
+      background-image: url("../img/microb.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      width: 20%;
+      height: 30%;
+      top: 0%;
+      right: 65%;
+    }
+
+    &-third {
+      background-image: url("../img/microb.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      width: 10%;
+      height: 17%;
+      top: 80%;
+      right: 65%;
+    }
+
+    &-fourth {
+      background-image: url("../img/microb.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      width: 25%;
+      height: 40%;
+      top: 40%;
+      right: 5%;
+    }
+
+    &-fifth {
+      background-image: url("../img/microb.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      width: 15%;
+      height: 25%;
+      top: 3%;
+      right: 30%;
+    }
+
+    &-sixth {
+      background-image: url("../img/microb.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      width: 10%;
+      height: 17%;
+      top: 75%;
+      right: 30%;
+    }
+
+    &-seventh {
+      background-image: url("../img/microb.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      width: 5%;
+      height: 9%;
+      top: 75%;
+      right: 0%;
+    }
+
+    &-eighth {
+      background-image: url("../img/microb.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      width: 8%;
+      height: 13%;
+      top: 16%;
+      right: 0%;
+    }
+  }
+
+  &-title {
+    font-family: "PF Din Display Pro Bold";
+    max-width: 1280px;
+    color: $white-text;
+    font-size: 90px;
+    line-height: 110px;
+    margin-top: 0;
+
+    & span {
+      color: $pink;
+    }
+  }
+
+  &-subtitle {
+    font-family: "PF Din Display Pro Light";
+    color: $white-text;
+    font-size: 54px;
+  }
+
+  &-test {
+    margin-top: 100px;
+    max-width: 1350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__btn {
+      font-family: "PF Din Display Pro Regular";
+      font-size: 50px;
+      padding: 42px 100px;
+      border-radius: 32px;
+    }
+
+    & span {
+      font-family: "PF Din Display Pro Light";
+      font-size: 54px;
+      color: $white-text;
+    }
+
+    &-subtext {
+      display: none;
+    }
+  }
+
+  &-hot-line {
+    display: none;
+
+    & a {
+      color: $purple;
+    }
+
+    &:active {
+      color: $purple;
+    }
+
+    &:visited {
+      color: $purple;
+    }
+
+    & span {
+      margin-right: 10px;
+    }
+  }
+
+  &-items {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin-top: 130px;
+  }
+
+  &-item {
+    border-top: 1px solid $purple-light;
+    display: flex;
+    justify-content: space-between;
+    max-width: 630px;
+    font-size: 38px;
+    padding-top: 30px;
+
+    &__first {
+      font-family: "PF Din Display Pro Medium";
+      color: $purple-light;
+      width: 45%;
+    }
+
+    &__second {
+      font-family: "PF Din Display Pro Light";
+      color: $white-text;
+      width: 55%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+  }
+}

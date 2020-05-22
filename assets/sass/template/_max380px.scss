@@ -1,0 +1,356 @@
+@media (max-width: 380px) {
+  .container {
+    max-width: 310px;
+    padding: 0 15px;
+  }
+
+  .header {
+    padding: 16px 0;
+
+    &-logo {
+      max-width: 130px;
+    }
+
+    &-burger {
+      width: 25px;
+      height: 20px;
+
+      & span {
+        height: 3px;
+      }
+
+      &.active {
+        & span {
+          &:nth-child(1) {
+            transform: rotate(45deg) translate(0px, 8px);
+          }
+
+          &:nth-child(2) {
+            transform: rotate(45deg) translate(-5px, 2px);
+          }
+
+          &:nth-child(3) {
+            transform: rotate(-45deg) translate(4px, -12px);
+          }
+        }
+      }
+    }
+
+    &-menu {
+      &__links {
+        font-size: 16px;
+        padding: 20px;
+        padding-top: 60px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+      }
+
+      &__hot-links {
+        padding: 10px;
+        padding-left: 50px;
+
+        & span {
+          font-size: 14px;
+        }
+
+        & a {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .hero {
+    padding-top: 60px;
+    padding-bottom: 36px;
+    border-radius: 0 0 30px 30px;
+
+    &-title {
+      max-width: 90%;
+      font-size: 35px;
+      line-height: 42px;
+      margin-bottom: 38px;
+      margin-top: 30px;
+
+      &-quiz {
+        font-size: 17px;
+        line-height: 26px;
+      }
+    }
+
+    &-item {
+      font-size: 16px;
+    }
+
+    &-subtitle {
+      font-size: 18px;
+    }
+
+    &-test {
+      margin-top: 18px;
+
+      &__btn {
+        font-size: 23px;
+        padding: 12px 12px;
+        border-radius: 12px;
+      }
+
+      & span {
+        font-size: 16px;
+      }
+
+      &-text {
+        margin-top: 16px;
+      }
+    }
+
+    &-hot-line {
+      font-size: 16px;
+      margin-top: 25px;
+    }
+  }
+
+  .quests {
+    padding-top: 55px;
+
+    &-form {
+      width: 100%;
+
+      &-title {
+        font-size: 24px;
+      }
+    }
+
+    &-item {
+      &__title {
+        font-size: 22px;
+        margin-top: 20px;
+      }
+
+      &__row {
+        font-size: 14px;
+        width: 245px;
+        margin-bottom: 10px;
+
+        &-first {
+          width: 100%;
+          font-size: 16px;
+
+          &>span {
+            width: 95px;
+          }
+
+          &>label {
+            width: 420px;
+
+            &>span {
+              width: 20px;
+            }
+          }
+        }
+      }
+
+      &__radio {
+        & span {
+          width: 10px;
+          height: 10px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  .prophylaxis {
+    &-block {
+      padding: 28px 0;
+    }
+
+    &-title {
+      font-size: 31px;
+      line-height: 28px;
+      margin-bottom: 15px;
+    }
+
+    &-box {
+      &__text {
+        & p {
+          font-size: 18px;
+          line-height: 26px;
+          margin-bottom: 24px;
+        }
+
+        &-title {
+          margin-bottom: 10px;
+          font-size: 24px;
+        }
+
+        & ol {
+          & li {
+            font-size: 18px;
+
+            & span {
+              line-height: 28px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .button {
+    &-box {
+      & button {
+        font-size: 21px;
+        border-radius: 14px;
+        margin-top: -40px;
+        margin-bottom: 30px;
+        padding: 16px 16px;
+      }
+
+      & span {
+        font-size: 26px;
+      }
+    }
+  }
+
+  .footer {
+    &-box {
+      padding-top: 40px;
+      padding-bottom: 110px;
+    }
+
+    &-item {
+      font-size: 14px;
+      line-height: 14px;
+
+      &:nth-child(2) {
+        margin-top: 38px;
+      }
+    }
+
+    &-calc {
+      flex-direction: column;
+      align-items: flex-start;
+
+      &__price {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+
+        &-title {
+          font-size: 12px;
+
+          & br {
+            display: none;
+          }
+        }
+
+        &-num {
+          font-size: 16px;
+        }
+
+        &-box {
+          flex-direction: column;
+
+          &:nth-child(1) {
+            width: 100%;
+          }
+
+          &:nth-child(2) {
+            width: 100%;
+            align-items: center;
+          }
+        }
+
+        &-final {
+          align-self: flex-end;
+          justify-content: flex-end;
+        }
+      }
+
+      & button {
+        margin-top: 30px;
+        padding: 20px 83px;
+        font-size: 30px;
+        border-radius: 18px;
+      }
+    }
+  }
+
+  .modal {
+    &-close {
+      width: 20px;
+      height: 20px;
+      top: 10px;
+      right: 10px;
+
+      & span {
+        width: 20px;
+      }
+    }
+
+    &-block {
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+    }
+
+
+
+    &-content {
+      width: 320px;
+      padding: 20px;
+      padding-top: 40px;
+
+      &__title {
+        font-size: 22px;
+        max-width: 100%;
+      }
+
+      &__subtitle {
+        font-size: 14px;
+        line-height: 24px;
+        padding-right: 16px;
+      }
+
+      &__list {
+        margin-top: 0;
+        padding-left: 20px;
+
+        &-item {
+          font-size: 14px;
+          line-height: 24px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .btn-white {
+    font-size: 20px;
+  }
+}
+
+@media (min-height: 630px) and (max-height: 690px) {
+  .hero {
+    padding-top: 100px;
+
+    &-test {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media (min-height: 750px) and (max-height: 850px) {
+  .hero {
+    padding-top: 130px;
+
+    &-test {
+      margin-top: 40px;
+    }
+
+    &-title {
+      margin-bottom: 130px;
+    }
+  }
+}

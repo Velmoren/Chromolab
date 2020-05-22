@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PF Din Display Pro Regular";
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  position: relative;
+  background-color: $gray-back;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: inset 0 0 0 55px #fff !important;
+  /* Цвет фона */
+  box-shadow: inset 0 0 0 55px #fff !important;
+  -webkit-text-fill-color: black !important;
+  /* цвет текста */
+  color: black !important;
+  /* цвет текста */
+}
+
+.btn {
+  background-color: $pink;
+  color: $white-text;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 25px 80px;
+  font-size: 30px;
+  font-family: "PF Din Display Pro Medium";
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn.active:hover {
+  box-shadow: 0 15px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+.tab-link {
+  color: $purple;
+  border: none;
+  outline: none;
+  background-color: $white;
+  border-radius: 32px;
+  text-align: center;
+  line-height: 70px;
+  text-decoration: none;
+  width: 485px;
+  height: 80px;
+  font-size: 30px;
+  font-family: "PF Din Display Pro Medium";
+  border: 1px solid $purple;
+}
+
+.btn-link {
+  transition: box-shadow 0.3s;
+}
+
+.btn-link:hover {
+  box-shadow: 0 15px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+.btn-white {
+  padding: 32px 120px;
+  font-size: 54px;
+  background-color: $white;
+  color: $pink;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0 5px 15px 0px rgba(27, 23, 23, 0.5);
+  transition: box-shadow 0.2s, margin 0.2s;
+}
+
+.btn-white:hover {
+  margin-top: 105px;
+  margin-bottom: 95px;
+  background-color: $white;
+  box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 2400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.rub {
+  font-family: ALSRubl;
+}
+
+.option {
+  color: green;
+}
+
+.black-text {
+  color: $black !important;
+}
+
+.gray-text {
+  color: $gray-text !important;
+}
+
+.pink-text {
+  color: $pink;
+  text-decoration: none;
+  position: relative;
+
+  &:visited {
+    color: $pink;
+  }
+
+  &:active {
+    color: $pink;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background-color: $pink;
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    &:after {
+      width: 0;
+      margin-left: 50%;
+      right: 50%;
+    }
+  }
+}
+
+.gray-back {
+  background-color: $gray-back !important;
+}
+
+.hero-bg-noHeight {
+  height: auto !important;
+}
+
+.no-active {
+  background-color: $gray-btn !important;
+  border: none !important;
+  color: $white !important;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.success {
+  padding: 50px 0;
+
+  &-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+  .no-scroll {
+    margin-right: 0px;
+  }
+}

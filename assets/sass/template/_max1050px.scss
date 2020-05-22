@@ -1,0 +1,409 @@
+@media (max-width: 1050px) {
+  .container {
+    max-width: 690px;
+  }
+
+  .header {
+    padding: 16px 0;
+
+    &-logo {
+      max-width: 145px;
+    }
+
+    &-btn {
+      font-size: 9px;
+      padding: 7px 22px;
+      margin-left: 43px;
+      border-radius: 8px;
+    }
+
+    &-link {
+      font-size: 12px;
+    }
+  }
+
+  .hero {
+    padding: 40px 0;
+    min-height: 275px;
+
+    &-title {
+      font-size: 26px;
+      max-width: 390px;
+      line-height: 32px;
+      margin-bottom: 18px;
+    }
+
+    &-subtitle {
+      font-size: 16px;
+    }
+
+    &-test {
+      margin-top: 22px;
+      max-width: 370px;
+
+      &__btn {
+        padding: 12px 24px;
+        font-size: 14px;
+        border-radius: 8px;
+      }
+
+      & span {
+        font-size: 16px;
+      }
+    }
+
+    &-items {
+      margin-top: 46px;
+      max-width: 430px;
+    }
+
+    &-item {
+      font-size: 11px;
+      max-width: 190px;
+    }
+  }
+
+  .tabs {
+    padding: 25px 0;
+
+    &-item {
+      width: 150px;
+      height: 160px;
+      border-radius: 8px;
+
+      &__box {
+        height: 135px;
+      }
+
+      &__title {
+        font-size: 11px;
+      }
+
+      &__img {
+        max-width: 85px;
+      }
+
+      &__link {
+        font-size: 9px;
+        width: 120px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 6px;
+      }
+    }
+  }
+
+  .prophylaxis {
+    &-block {
+      border-radius: 8px;
+      padding: 12px 40px 95px 50px;
+    }
+
+    &-title {
+      font-size: 29px;
+    }
+
+    &-box {
+      &__text {
+        &-first {
+          padding-left: 30px;
+
+          & p {
+            font-size: 11px;
+            line-height: 14px;
+          }
+        }
+
+        &-second {
+          margin-top: 59px;
+          padding-right: 35px;
+          padding-left: 15px;
+
+          & p {
+            font-size: 11px;
+            line-height: 14px;
+          }
+        }
+
+        &-title {
+          font-size: 19px;
+          margin-top: 10px;
+        }
+
+        & ol {
+          padding-left: 12px;
+          margin-top: 8px;
+
+          & li {
+            font-size: 11px;
+            margin-bottom: 2px;
+
+            & span {
+              line-height: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .button {
+    padding-bottom: 35px;
+
+    &-box {
+      & button {
+        padding: 12px 23px;
+        font-size: 14px;
+        margin-left: -11px;
+        margin-top: -42px;
+        border-radius: 8px;
+        margin-bottom: 18px;
+      }
+
+      & span {
+        font-size: 16px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .quests {
+    padding-top: 46px;
+    padding-bottom: 18px;
+
+    &-item {
+      &__title {
+        font-size: 26px;
+        margin-bottom: 24px;
+
+        & a {
+          margin-right: 110px;
+        }
+      }
+
+      &__row {
+        font-size: 16px;
+        width: 284px;
+        margin-bottom: 10px;
+
+        &-first {
+          width: 550px;
+        }
+      }
+
+      &__radio {
+        & span {
+          width: 10px;
+          height: 10px;
+          margin-right: 12px;
+        }
+      }
+    }
+
+    &-form {
+      width: 390px;
+      margin-top: 35px;
+
+      &-title {
+        font-size: 26px;
+        margin-bottom: 35px;
+      }
+
+      &-second {
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  .with-placeholder {
+    height: 35px;
+    margin-top: 12px;
+
+    &>input {
+      padding: 16px;
+      border-radius: 4px;
+      font-size: 14px;
+      border: 1px solid $gray-text;
+    }
+
+    &>input:invalid+span {
+      top: 10px;
+      left: 17px;
+      font-size: 14px;
+    }
+
+    &>input:valid+span,
+    >input:focus+span {
+      top: 3px;
+      font-size: 8px;
+    }
+
+    &__sex {
+      width: 95px;
+      margin-right: 10px;
+
+      & select {
+        padding: 5px 17px;
+        font-size: 14px;
+        border: 1px solid $gray-text;
+      }
+
+      &:after {
+        top: 16px;
+        right: 14px;
+        width: 10px;
+        height: 10px;
+      }
+    }
+
+    &__age {
+      width: 95px;
+    }
+  }
+
+  .activate-second-form {
+    font-size: 16px;
+    margin-top: 45px;
+  }
+
+  .btn-white {
+    padding: 10px 30px;
+    font-size: 17px;
+    margin-top: 22px;
+    margin-bottom: 25px;
+
+    &:hover {
+      margin-top: 27px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .footer {
+    min-height: 160px;
+
+    &-item {
+      font-size: 9px;
+    }
+
+    &-box {
+      padding: 0;
+      padding-top: 30px;
+      padding-bottom: 80px;
+      line-height: 8px;
+    }
+
+    &-calc {
+      padding: 30px 0;
+
+      &__price {
+        &-title {
+          font-size: 12px;
+          margin-bottom: 7px;
+        }
+
+        &-num {
+          font-size: 14px;
+        }
+
+        &-final {
+          & span {
+            font-size: 13px;
+
+            & span {
+              margin-left: 5px;
+
+              & span {
+                font-size: 30px;
+              }
+            }
+          }
+        }
+      }
+
+      & button {
+        padding: 12px 35px;
+        font-size: 12px;
+      }
+    }
+
+    &-ok {
+      padding-top: 22px;
+      font-size: 8px;
+
+      & label {
+        padding-left: 20px;
+      }
+
+      & input[type="checkbox"]:checked+label:before,
+      input[type="checkbox"]:not(:checked)+label:before {
+        left: 0px;
+        top: 0px;
+        width: 10px;
+        height: 10px;
+      }
+
+      & input[type="checkbox"]:checked+label:after,
+      input[type="checkbox"]:not(:checked)+label:after {
+        width: 5px;
+        height: 2px;
+        border-left: 2px solid $black;
+        border-bottom: 2px solid $black;
+      }
+    }
+  }
+
+  .modal {
+    &-close {
+      width: 20px;
+      height: 20px;
+
+      & span {
+        width: 20px;
+      }
+    }
+
+    &-block {
+      width: 480px;
+      height: 510px;
+    }
+
+    &-item {
+      margin-bottom: 20px;
+
+      &__title {
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+
+      &__box {
+        font-size: 14px;
+      }
+    }
+
+    &-content {
+      padding: 50px;
+
+      &__title {
+        font-size: 18px;
+        max-width: 310px;
+      }
+
+      &__subtitle {
+        font-size: 12px;
+        line-height: 19px;
+      }
+
+      &__list {
+        margin-top: 0;
+        padding-left: 20px;
+
+        &-item {
+          font-size: 12px;
+          line-height: 19px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

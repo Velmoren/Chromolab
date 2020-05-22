@@ -1,0 +1,201 @@
+@media (max-width: 3200px) {
+  .container {
+    max-width: 1800px;
+  }
+
+  .btn {
+    padding: 18px 62px;
+    font-size: 24px;
+  }
+
+  .header {
+    padding: 50px 0;
+
+    &-btn {
+      margin-left: 80px;
+    }
+
+    &-link {
+      font-size: 32px;
+    }
+  }
+
+  .hero {
+    padding: 90px 0;
+    background-size: 30%;
+
+    &-title {
+      font-size: 70px;
+      max-width: 1000px;
+      line-height: 95px;
+    }
+
+    &-subtitle {
+      font-size: 44px;
+    }
+
+    &-test {
+      max-width: 1100px;
+
+      &__btn {
+        padding: 34px 80px;
+        font-size: 36px;
+      }
+
+      & span {
+        font-size: 42px;
+      }
+    }
+
+    &-items {
+      max-width: 1000px;
+      margin-top: 100px;
+    }
+
+    &-item {
+      max-width: 480px;
+      font-size: 29px;
+    }
+  }
+
+  .quests {
+    &-form {
+      &-title {
+        font-size: 74px;
+      }
+    }
+
+    &-item {
+      &__title {
+        font-size: 74px;
+      }
+
+      &__row {
+        width: 830px;
+        font-size: 46px;
+        &-first {
+          width: 780px;
+        }
+      }
+    }
+  }
+
+  .with-placeholder {
+    height: 100px;
+
+    & > input:invalid + span {
+      font-size: 44px;
+      top: 26px;
+    }
+
+    &__sex {
+      & > select {
+        font-size: 44px;
+      }
+
+      &:after {
+        top: 30px;
+      }
+    }
+  }
+
+  .activate {
+    &-second {
+      &-form {
+        padding-top: 130px;
+        padding-bottom: 160px;
+      }
+    }
+  }
+
+  .btn-white {
+    padding: 30px 80px;
+    font-size: 34px;
+  }
+
+  .tabs {
+    &-item {
+      width: 420px;
+      height: 430px;
+
+      &__title {
+        font-size: 29px;
+      }
+
+      &__img {
+        max-width: 210px;
+      }
+
+      &__box {
+        height: 350px;
+      }
+
+      &__link {
+        width: 330px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 22px;
+      }
+    }
+  }
+
+  .prophylaxis {
+    &-title {
+      font-size: 80px;
+    }
+
+    &-block {
+      padding-bottom: 300px;
+    }
+
+    &-box {
+      &__text {
+        &-title {
+          font-size: 44px;
+        }
+
+        &-first {
+          padding-left: 70px;
+        }
+
+        & ol {
+          & li {
+            font-size: 29px;
+          }
+        }
+
+        & p {
+          font-size: 29px;
+        }
+      }
+    }
+  }
+
+  .button {
+    &-box {
+      & button {
+        font-size: 44px;
+      }
+
+      & span {
+        font-size: 50px;
+      }
+    }
+  }
+
+  .footer {
+    height: 800px;
+
+    &-box {
+      padding-top: 130px;
+    }
+
+    &-item {
+      font-size: 24px;
+
+      & span {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
